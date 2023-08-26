@@ -1,0 +1,19 @@
+Git Process Step by Step
+
+
+First Intialize Git with git don't know who you are
+
+git init --global user.name 'username'  initiate git process for this username
+git init --global user.email 'myemail@djlsak.com'  git process for this useremail
+
+TRACK
+
+git add filename to single file track
+git add .        to all file track
+
+COMMIT STAGING
+git commit -m "your commit message"
+
+PUSH
+git push origin <branch name> link
+git push -u origin <branch name>
